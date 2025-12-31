@@ -6,7 +6,7 @@ app.use(express.json());
 
 // Routes
 app.use('/auth', require('./routes/authRoutes'));
-// app.use('/products', require('./routes/productRoutes'));
+app.use('/products', require('./routes/productRoutes'));
 // app.use('/cart', require('./routes/cartRoutes'));
 // app.use('/orders', require('./routes/orderRoutes'));
 
